@@ -1,0 +1,93 @@
+# Site
+repository: Millione/resume
+favicon: images/favicon.ico
+baseurl: /resume
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Liu Jie
+title: Backend Developer
+email: isjieliu@163.com
+website: https://millione.github.io
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+twitter_username: uuuuuunagi
+github_username: Millione
+linkedin_username: isjieliu
+
+# Additional icon links
+additional_links:
+  - title: Telegram
+    icon: fab fa-telegram
+    url: https://t.me/uuunagi
+
+# About Section
+about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+
+content:
+  - title: Skills # Title for the section
+    layout: text # Type of content section (list/text)
+    content: |
+      - Specialized in Rust, familiar with Java, capable of using Go, C++, Python
+      - Good Command of basic data structure and algorithms
+      - Familiar with basic computer knowledge and network programming
+
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Rust RPC Framework
+        quote: >
+          Performance, Scalability, Accessibility
+        description: | # this will include new lines to allow paragraphs
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: ByteDance
+        sub_title: Backend development intern
+        caption: Jun 2021 - August 2021
+        quote: >
+          Make everything great again with Rust
+        description: | # this will include new lines to allow paragraphs
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Nanjing University
+        caption: 2019 - 2022
+        sub_title: Master in Electronic and Communication Engineering
+        description: | # this will include new lines to allow paragraphs
+
+      - layout: left
+        title: Shandong University
+        caption: 2015 - 2019
+        sub_title: Bachelor in Communication Engineering
+        description: | # this will include new lines to allow paragraphs
+
+  - title: Beyond the scope of coding
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+
+# Footer
+footer_show_references: true
+references_title: Feel free to contact
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
