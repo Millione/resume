@@ -30,6 +30,7 @@ additional_links:
 about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
+  Currently, I am a Rustacean, a lover of all things tech, focused on the network and IO programming
 
 content:
   - title: Skills # Title for the section
@@ -43,10 +44,18 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Rust RPC Framework
+        title: Rust RPC framework
         quote: >
-          Performance, Scalability, Accessibility
+          Performance, Scalable, Accessibility
         description: | # this will include new lines to allow paragraphs
+          A framework for building RPC services in Rust which supports Thrift and Ping-Pong
+
+      - layout: left
+        title: Validate sidecar
+        quote: >
+          Transparent, Independent, Lightweight
+        description: | # this will include new lines to allow paragraphs
+          A sidecar for validating HTTP and Thrift requests by using gRPC over UDS to communicate with Mesh
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -58,6 +67,7 @@ content:
         quote: >
           Make everything great again with Rust
         description: | # this will include new lines to allow paragraphs
+          Learn and grow with Rust, contribute to the open source community, and help building the Rust ecosystem inside ByteDance
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -67,16 +77,19 @@ content:
         caption: 2019 - 2022
         sub_title: Master in Electronic and Communication Engineering
         description: | # this will include new lines to allow paragraphs
+          Too successful
 
       - layout: left
         title: Shandong University
         caption: 2015 - 2019
         sub_title: Bachelor in Communication Engineering
         description: | # this will include new lines to allow paragraphs
+          Complete failure
 
   - title: Beyond the scope of coding
     layout: text
     content: | # this will include new lines to allow paragraphs
+      To experience different kinds of life, embrace it, and understand it
 
 # Footer
 footer_show_references: true
